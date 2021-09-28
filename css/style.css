@@ -2,14 +2,12 @@
 /*heder*/
 .heder {
   font-family: Arial, Helvetica, sans-serif; }
+  .heder_logo {
+    text-align: center; }
+  .heder_img {
+    max-width: 350px; }
 
-.header_logo {
-  text-align: center; }
-
-.header_logo .header_img {
-  max-width: 350px; }
-
-.header_menu .menu_list {
+.menu_list {
   display: flex;
   justify-content: center;
   border-top: 1px solid #eaeaeb;
@@ -18,26 +16,22 @@
   margin-right: auto;
   width: 80%;
   padding: 20px 0; }
-
-.header_menu .menu_list .menu_links {
+.menu_links {
   position: relative; }
-
-.header_menu .menu_list .menu_links:not(:last-child)::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: -3px;
-  margin: auto;
-  height: 15px;
-  width: 1px;
-  border: #eaeaeb; }
-
-.header_menu .menu_list .menu_links .menu_link {
+  .menu_links:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -3px;
+    margin: auto;
+    height: 15px;
+    width: 1px;
+    border: #eaeaeb; }
+.menu_link {
   padding: 0 25px;
   color: #464646; }
-
-.header_menu .menu_list .menu_links .menu_link:hover {
-  color: #a050be; }
+  .menu_link:hover {
+    color: #a050be; }
 
 /*Footer*/
 .footer {
@@ -48,12 +42,10 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%); }
-
-.footer .footer_logo {
-  max-width: 100px; }
-
-.footer .footer_text {
-  margin: auto;
-  font-size: 14px; }
+  .footer_logo {
+    max-width: 100px; }
+  .footer_text {
+    margin: auto;
+    font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */
